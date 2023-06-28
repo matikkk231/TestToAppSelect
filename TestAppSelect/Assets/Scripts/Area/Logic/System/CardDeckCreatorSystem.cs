@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Core.ECS.Entity;
+using Core.ECS.System;
 using DefaultNamespace.Area.Logic.Component;
-using Project.Scripts.Core.ECS.Entity;
-using Project.Scripts.Core.ECS.System;
 using UnityEngine;
 
 namespace DefaultNamespace.Area.Logic.System

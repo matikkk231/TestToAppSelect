@@ -1,4 +1,4 @@
-namespace Project.Scripts.Core.ECS.System
+namespace Core.ECS.System
 {
     public interface ISystem
     {

@@ -1,46 +1,42 @@
-using System;
 using System.Collections.Generic;
+using Core.ECS.Entity;
+using Core.ECS.System;
 using DefaultNamespace.Area.Logic.System;
-using Project.Scripts.Core.ECS.Entity;
-using Project.Scripts.Core.ECS.System;
 using UnityEngine;
 
-namespace DefaultNamespace
+public class Entry : MonoBehaviour
 {
-    public class Entry : MonoBehaviour
+    private IEntityManager _entityManager;
+    private List<ISystem> _systems;
+    private List<ISystem> _initializeSystems;
+
+    private void Awake()
     {
-        private IEntityManager _entityManager;
-        private List<ISystem> _systems;
-        private List<ISystem> _initializeSystems;
+        _entityManager = new EntityManager();
+        _systems = new List<ISystem>();
+        _initializeSystems = new List<ISystem>();
 
-        private void Awake()
-        {
-            _entityManager = new EntityManager();
-            _systems = new List<ISystem>();
-            _initializeSystems = new List<ISystem>();
-            
-            CreateSystems();
-        }
+        CreateSystems();
+    }
 
-        private void Start()
+    private void Start()
+    {
+        foreach (var system in _initializeSystems)
         {
-            foreach (var system in _initializeSystems)
-            {
-                system.Execute();
-            }
+            system.Execute();
         }
+    }
 
-        private void Update()
+    private void Update()
+    {
+        foreach (var system in _systems)
         {
-            foreach (var system in _systems)
-            {
-                system.Execute();
-            }
+            system.Execute();
         }
+    }
 
-        private void CreateSystems()
-        {
-            _initializeSystems.Add(new CardDeckCreatorSystem(_entityManager));
-        }
+    private void CreateSystems()
+    {
+        _initializeSystems.Add(new CardDeckCreatorSystem(_entityManager));
     }
 }

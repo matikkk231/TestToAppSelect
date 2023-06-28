@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Project.Scripts.Core.ECS.Entity
+namespace Core.ECS.Entity
 {
     public interface IEntityManager
     {

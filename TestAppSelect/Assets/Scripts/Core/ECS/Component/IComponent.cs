@@ -1,4 +1,4 @@
-namespace Project.Scripts.Core.ECS.Component
+namespace Core.ECS.Component
 {
     public interface IComponent
     {

@@ -1,4 +1,4 @@
-using Project.Scripts.Core.ECS.Component;
+using Core.ECS.Component;
 
 namespace DefaultNamespace.Area.Logic.Component
 {

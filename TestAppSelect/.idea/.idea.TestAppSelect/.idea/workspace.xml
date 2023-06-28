@@ -20,20 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ac0704a-af83-4aee-850c-2a067e076c65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/CardClanType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/CardClanType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/CardComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/CardComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/DeckCardComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/DeckCardComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/NeedDeckPositionComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/NeedDeckPositionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/System/CardDeckCreatorSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/System/CardDeckCreatorSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Entry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestAppSelect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestAppSelect/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/CardComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/CardComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/DeckCardComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/DeckCardComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/NeedDeckPositionComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/NeedDeckPositionComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/System/CardDeckCreatorSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Area/Logic/System/CardDeckCreatorSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Component/IComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Component/IComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/EntityManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/EntityManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/IEntityManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/IEntityManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/System/ISystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ECS/System/ISystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entry.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +56,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/IEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/ECS/Entity/Entity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Area/Logic/Component/Card/NeedDeckPositionComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Entry.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Area/Logic/System/CardDeckCreatorSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entry.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ECS/System/ISystem.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687856930932</updated>
       <workItem from="1687856942588" duration="4034000" />
-      <workItem from="1687944852345" duration="688000" />
+      <workItem from="1687944852345" duration="1586000" />
     </task>
     <servers />
   </component>
@@ -138,105 +137,73 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="462" height="464" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1687860936451" />
-    <state width="1478" height="287" key="GridCell.Tab.0.bottom" timestamp="1687945272656">
+    <state width="1478" height="287" key="GridCell.Tab.0.bottom" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1687945272656" />
-    <state width="1478" height="287" key="GridCell.Tab.0.center" timestamp="1687945272656">
+    <state width="1478" height="287" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.0.center" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1687945272656" />
-    <state width="1478" height="287" key="GridCell.Tab.0.left" timestamp="1687945272656">
+    <state width="1478" height="287" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.0.left" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1687945272656" />
-    <state width="1478" height="287" key="GridCell.Tab.0.right" timestamp="1687945272656">
+    <state width="1478" height="287" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.0.right" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1687945272656" />
-    <state width="1478" height="287" key="GridCell.Tab.1.bottom" timestamp="1687945272656">
+    <state width="1478" height="287" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.1.bottom" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1687945272656" />
-    <state width="1478" height="287" key="GridCell.Tab.1.center" timestamp="1687945272656">
+    <state width="1478" height="287" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.1.center" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1687945272656" />
-    <state width="1478" height="287" key="GridCell.Tab.1.left" timestamp="1687945272656">
+    <state width="1478" height="287" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.1.left" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1687945272656" />
-    <state width="1478" height="287" key="GridCell.Tab.1.right" timestamp="1687945272656">
+    <state width="1478" height="287" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.1.right" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1687945272656" />
-    <state width="1478" height="287" key="GridCell.Tab.2.bottom" timestamp="1687945272657">
+    <state width="1478" height="287" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.2.bottom" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1687945272657" />
-    <state width="1478" height="287" key="GridCell.Tab.2.center" timestamp="1687945272657">
+    <state width="1478" height="287" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.2.center" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1687945272657" />
-    <state width="1478" height="287" key="GridCell.Tab.2.left" timestamp="1687945272657">
+    <state width="1478" height="287" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.2.left" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1687945272657" />
-    <state width="1478" height="287" key="GridCell.Tab.2.right" timestamp="1687945272657">
+    <state width="1478" height="287" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.2.right" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1687945272657" />
-    <state width="1478" height="287" key="GridCell.Tab.3.bottom" timestamp="1687945272657">
+    <state width="1478" height="287" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.3.bottom" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1687945272657" />
-    <state width="1478" height="287" key="GridCell.Tab.3.center" timestamp="1687945272657">
+    <state width="1478" height="287" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.3.center" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1687945272657" />
-    <state width="1478" height="287" key="GridCell.Tab.3.left" timestamp="1687945272657">
+    <state width="1478" height="287" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.3.left" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1687945272657" />
-    <state width="1478" height="287" key="GridCell.Tab.3.right" timestamp="1687945272657">
+    <state width="1478" height="287" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
+    <state width="1478" height="287" key="GridCell.Tab.3.right" timestamp="1687945466317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="287" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1687945272657" />
+    <state width="1478" height="287" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1687945466317" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1687860467079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1687860467079" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Area/Logic/System/CardDeckCreatorSystem.cs</url>
-          <line>43</line>
-          <properties documentPath="C:\Users\matik\GitHub\TestToAppSelect\TestAppSelect\Assets\Scripts\Area\Logic\System\CardDeckCreatorSystem.cs" initialLine="43">
-            <startOffsets>
-              <option value="1544" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1545" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Area/Logic/System/CardDeckCreatorSystem.cs</url>
-          <line>54</line>
-          <properties documentPath="C:\Users\matik\GitHub\TestToAppSelect\TestAppSelect\Assets\Scripts\Area\Logic\System\CardDeckCreatorSystem.cs" initialLine="54">
-            <startOffsets>
-              <option value="1896" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1935" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
